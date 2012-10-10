@@ -6,4 +6,11 @@
     = stylesheet_link_tag "application"
     = javascript_include_tag "jquery", "builder"
   %body
+    %article
+      %h1 3D Sculptures in Firefox
+      %p
+        Introducing a new use for Firefox 3D view: Creating sculptures using DOM elements! For my first project using 3D view, I figured I'd take a skyscraper in
+        = link_to "Hashrocket", "http://hashrocket.com"
+        Chicago's neighborhood and attempt to recreate it using DOM elements and absolute positioning. The resulting building ended up being inspired by the design of the #{link_to "John Hancock Center", "http://en.wikipedia.org/wiki/John_Hancock_Center"}, but is not a scale replica by any means.
+      %p To view, make sure you're in Firefox and you have version 11 or later. Open the inspector (Cmd-Opt-i for Mac users), then enable 3D view by pressing the button in the bottom right or pressing Ctrl-w. Zoom in/out with the scroll wheel, and click-drag to rotate. You can also use #{link_to "keyboard shortcuts", "https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/3D_view#Controlling_the_3D_view"}, but you need a number pad to use the +/- zooming. You can also check out the source code on #{link_to "GitHub", "http://github.com/shaneriley/firefox_skyscraper"}.
     %b#base

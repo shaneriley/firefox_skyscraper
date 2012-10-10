@@ -1,15 +1,27 @@
 @import "mixins"
 
 body
-  padding: 120px 0 0 0
-  background: #5b5b5b url("/images/john-hancock-center.jpg") 100% 0 no-repeat
+  font: normal 12px Helvetica, Arial, sans-serif
+  color: #282828
+  background: #5b5b5b url("/images/map.jpg") 0 100% no-repeat
+
+article
+  width: 600px
+  padding: 30px
+  margin: 10px
+  background: rgba(255, 255, 255, .7)
+h1
+  font-size: 18px
+p
+  padding: 15px 0 0 0
+  line-height: 140%
 
 b
   display: block
-  background: #5b5b5b
 
 #base
   position: relative
+  z-index: 1
   width: 800px
   height: 800px
 .corner
@@ -140,7 +152,6 @@ $indent: 120px
     position: absolute
     @each $prop in top, right, bottom, left
       #{$prop}: 0
-    background: #5b5b5b
   #roof
     @each $prop in top, right, bottom, left
       #{$prop}: 50px
