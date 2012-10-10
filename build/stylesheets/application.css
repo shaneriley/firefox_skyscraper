@@ -46,236 +46,255 @@ summary::-webkit-details-marker {
 
 /* line 3, application.css.sass */
 body {
-  padding: 120px 0 0 0;
-  background: #5b5b5b url("../images/john-hancock-center.jpg") 100% 0 no-repeat; }
+  font: normal 13px Helvetica, Arial, sans-serif;
+  color: #282828;
+  background: #5b5b5b url("../images/map.jpg") 0 100% no-repeat; }
 
-/* line 7, application.css.sass */
+a { color: #339900; }
+
+/* line 8, application.css.sass */
+article {
+  width: 700px;
+  padding: 30px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.7); }
+
+/* line 13, application.css.sass */
+h1 {
+  font-size: 18px; }
+
+/* line 15, application.css.sass */
+p {
+  padding: 15px 0 0 0;
+  line-height: 140%; }
+
+/* line 19, application.css.sass */
 b {
-  display: block;
-  background: #5b5b5b; }
+  display: block; }
 
-/* line 11, application.css.sass */
+/* line 22, application.css.sass */
 #base {
   position: relative;
+  z-index: 1;
   width: 800px;
   height: 800px; }
 
-/* line 15, application.css.sass */
+/* line 27, application.css.sass */
 .corner {
   position: absolute;
   z-index: 1;
   width: 40px;
   height: 40px; }
-  /* line 20, application.css.sass */
+  /* line 32, application.css.sass */
   .corner b {
     position: absolute;
     z-index: 1;
     width: 40px;
     height: 40px; }
 
-/* line 25, application.css.sass */
+/* line 37, application.css.sass */
 #tl_corner {
   top: 0;
   left: 0; }
-  /* line 28, application.css.sass */
+  /* line 40, application.css.sass */
   #tl_corner b {
     right: -1px;
     bottom: -1px; }
 
-/* line 31, application.css.sass */
+/* line 43, application.css.sass */
 #tr_corner {
   top: 0;
   right: 0; }
-  /* line 34, application.css.sass */
+  /* line 46, application.css.sass */
   #tr_corner b {
     left: -1px;
     bottom: -1px; }
 
-/* line 37, application.css.sass */
+/* line 49, application.css.sass */
 #bl_corner {
   bottom: 0;
   left: 0; }
-  /* line 40, application.css.sass */
+  /* line 52, application.css.sass */
   #bl_corner b {
     top: -1px;
     right: -1px; }
 
-/* line 43, application.css.sass */
+/* line 55, application.css.sass */
 #br_corner {
   bottom: 0;
   right: 0; }
-  /* line 46, application.css.sass */
+  /* line 58, application.css.sass */
   #br_corner b {
     top: -1px;
     left: -1px; }
 
-/* line 49, application.css.sass */
+/* line 61, application.css.sass */
 .side {
   position: absolute;
   z-index: 1; }
-  /* line 52, application.css.sass */
+  /* line 64, application.css.sass */
   .side div {
     position: absolute;
     z-index: 1; }
 
-/* line 55, application.css.sass */
+/* line 67, application.css.sass */
 #t_side,
 #b_side {
   width: 720px;
   height: 40px; }
 
-/* line 59, application.css.sass */
+/* line 71, application.css.sass */
 #l_side,
 #r_side {
   width: 40px;
   height: 720px; }
 
-/* line 63, application.css.sass */
+/* line 75, application.css.sass */
 #t_side {
   top: 10px;
   left: 40px; }
-  /* line 66, application.css.sass */
+  /* line 78, application.css.sass */
   #t_side div {
     bottom: -1px;
     left: 1px;
     right: 1px;
     height: 30px; }
 
-/* line 71, application.css.sass */
+/* line 83, application.css.sass */
 #r_side {
   top: 40px;
   right: 10px; }
-  /* line 74, application.css.sass */
+  /* line 86, application.css.sass */
   #r_side div {
     top: 1px;
     bottom: 1px;
     left: -1px;
     width: 30px; }
 
-/* line 79, application.css.sass */
+/* line 91, application.css.sass */
 #b_side {
   bottom: 10px;
   left: 40px; }
-  /* line 82, application.css.sass */
+  /* line 94, application.css.sass */
   #b_side div {
     top: -1px;
     right: 1px;
     left: 1px;
     height: 30px; }
 
-/* line 87, application.css.sass */
+/* line 99, application.css.sass */
 #l_side {
   top: 40px;
   left: 10px; }
-  /* line 90, application.css.sass */
+  /* line 102, application.css.sass */
   #l_side div {
     top: 1px;
     right: -1px;
     bottom: 1px;
     width: 30px; }
 
-/* line 95, application.css.sass */
+/* line 107, application.css.sass */
 .beam {
   position: absolute;
   z-index: 1;
   width: 20px;
   height: 20px; }
-  /* line 100, application.css.sass */
+  /* line 112, application.css.sass */
   .beam b {
     position: absolute;
     width: 20px;
     height: 20px;
     z-index: 1; }
 
-/* line 105, application.css.sass */
+/* line 117, application.css.sass */
 .t_beam {
   top: 0; }
-  /* line 107, application.css.sass */
+  /* line 119, application.css.sass */
   .t_beam b {
     bottom: -1px; }
-  /* line 110, application.css.sass */
+  /* line 122, application.css.sass */
   .t_beam.beam_1 {
     left: 130px; }
-  /* line 110, application.css.sass */
+  /* line 122, application.css.sass */
   .t_beam.beam_2 {
     left: 260px; }
-  /* line 110, application.css.sass */
+  /* line 122, application.css.sass */
   .t_beam.beam_3 {
     left: 390px; }
-  /* line 110, application.css.sass */
+  /* line 122, application.css.sass */
   .t_beam.beam_4 {
     left: 520px; }
-  /* line 110, application.css.sass */
+  /* line 122, application.css.sass */
   .t_beam.beam_5 {
     left: 650px; }
 
-/* line 112, application.css.sass */
+/* line 124, application.css.sass */
 .r_beam {
   right: 0; }
-  /* line 114, application.css.sass */
+  /* line 126, application.css.sass */
   .r_beam b {
     left: -1px; }
-  /* line 117, application.css.sass */
+  /* line 129, application.css.sass */
   .r_beam.beam_1 {
     top: 130px; }
-  /* line 117, application.css.sass */
+  /* line 129, application.css.sass */
   .r_beam.beam_2 {
     top: 260px; }
-  /* line 117, application.css.sass */
+  /* line 129, application.css.sass */
   .r_beam.beam_3 {
     top: 390px; }
-  /* line 117, application.css.sass */
+  /* line 129, application.css.sass */
   .r_beam.beam_4 {
     top: 520px; }
-  /* line 117, application.css.sass */
+  /* line 129, application.css.sass */
   .r_beam.beam_5 {
     top: 650px; }
 
-/* line 119, application.css.sass */
+/* line 131, application.css.sass */
 .b_beam {
   bottom: 0; }
-  /* line 121, application.css.sass */
+  /* line 133, application.css.sass */
   .b_beam b {
     top: -1px; }
-  /* line 124, application.css.sass */
+  /* line 136, application.css.sass */
   .b_beam.beam_1 {
     left: 130px; }
-  /* line 124, application.css.sass */
+  /* line 136, application.css.sass */
   .b_beam.beam_2 {
     left: 260px; }
-  /* line 124, application.css.sass */
+  /* line 136, application.css.sass */
   .b_beam.beam_3 {
     left: 390px; }
-  /* line 124, application.css.sass */
+  /* line 136, application.css.sass */
   .b_beam.beam_4 {
     left: 520px; }
-  /* line 124, application.css.sass */
+  /* line 136, application.css.sass */
   .b_beam.beam_5 {
     left: 650px; }
 
-/* line 126, application.css.sass */
+/* line 138, application.css.sass */
 .l_beam {
   left: 0; }
-  /* line 128, application.css.sass */
+  /* line 140, application.css.sass */
   .l_beam b {
     right: -1px; }
-  /* line 131, application.css.sass */
+  /* line 143, application.css.sass */
   .l_beam.beam_1 {
     top: 130px; }
-  /* line 131, application.css.sass */
+  /* line 143, application.css.sass */
   .l_beam.beam_2 {
     top: 260px; }
-  /* line 131, application.css.sass */
+  /* line 143, application.css.sass */
   .l_beam.beam_3 {
     top: 390px; }
-  /* line 131, application.css.sass */
+  /* line 143, application.css.sass */
   .l_beam.beam_4 {
     top: 520px; }
-  /* line 131, application.css.sass */
+  /* line 143, application.css.sass */
   .l_beam.beam_5 {
     top: 650px; }
 
-/* line 134, application.css.sass */
+/* line 146, application.css.sass */
 #guts {
   position: absolute;
   top: 120px;
@@ -283,21 +302,20 @@ b {
   bottom: 120px;
   left: 120px;
   z-index: 1; }
-  /* line 139, application.css.sass */
+  /* line 151, application.css.sass */
   #guts b {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    background: #5b5b5b; }
-  /* line 144, application.css.sass */
+    left: 0; }
+  /* line 155, application.css.sass */
   #guts #roof {
     top: 50px;
     right: 50px;
     bottom: 50px;
     left: 50px; }
-  /* line 147, application.css.sass */
+  /* line 158, application.css.sass */
   #guts #antenna_l,
   #guts #antenna_r {
     display: block;
@@ -305,250 +323,250 @@ b {
     top: 245px;
     width: 10px;
     height: 10px; }
-    /* line 154, application.css.sass */
+    /* line 165, application.css.sass */
     #guts #antenna_l span,
     #guts #antenna_r span {
       display: block;
       width: 100%;
       height: 100%; }
-  /* line 158, application.css.sass */
+  /* line 169, application.css.sass */
   #guts #antenna_l {
     left: 110px; }
-  /* line 160, application.css.sass */
+  /* line 171, application.css.sass */
   #guts #antenna_r {
     right: 110px; }
 
-/* line 169, application.css.sass */
+/* line 180, application.css.sass */
 #bl_corner .crossbeam.vertical.l1 b {
   top: -30px; }
-/* line 172, application.css.sass */
+/* line 183, application.css.sass */
 #bl_corner .crossbeam.horizontal.l1 b {
   right: -30px; }
 
-/* line 177, application.css.sass */
+/* line 188, application.css.sass */
 #tl_corner .crossbeam.vertical.l1 b {
   bottom: -30px; }
-/* line 180, application.css.sass */
+/* line 191, application.css.sass */
 #tl_corner .crossbeam.horizontal.l1 b {
   right: -30px; }
 
-/* line 185, application.css.sass */
+/* line 196, application.css.sass */
 #br_corner .crossbeam.vertical.l1 b {
   top: -30px; }
-/* line 188, application.css.sass */
+/* line 199, application.css.sass */
 #br_corner .crossbeam.horizontal.l1 b {
   left: -30px; }
 
-/* line 193, application.css.sass */
+/* line 204, application.css.sass */
 #tr_corner .crossbeam.vertical.l1 b {
   bottom: -30px; }
-/* line 196, application.css.sass */
+/* line 207, application.css.sass */
 #tr_corner .crossbeam.horizontal.l1 b {
   left: -30px; }
 
-/* line 169, application.css.sass */
+/* line 180, application.css.sass */
 #bl_corner .crossbeam.vertical.l2 b {
   top: -27px; }
-/* line 172, application.css.sass */
+/* line 183, application.css.sass */
 #bl_corner .crossbeam.horizontal.l2 b {
   right: -27px; }
 
-/* line 177, application.css.sass */
+/* line 188, application.css.sass */
 #tl_corner .crossbeam.vertical.l2 b {
   bottom: -27px; }
-/* line 180, application.css.sass */
+/* line 191, application.css.sass */
 #tl_corner .crossbeam.horizontal.l2 b {
   right: -27px; }
 
-/* line 185, application.css.sass */
+/* line 196, application.css.sass */
 #br_corner .crossbeam.vertical.l2 b {
   top: -27px; }
-/* line 188, application.css.sass */
+/* line 199, application.css.sass */
 #br_corner .crossbeam.horizontal.l2 b {
   left: -27px; }
 
-/* line 193, application.css.sass */
+/* line 204, application.css.sass */
 #tr_corner .crossbeam.vertical.l2 b {
   bottom: -27px; }
-/* line 196, application.css.sass */
+/* line 207, application.css.sass */
 #tr_corner .crossbeam.horizontal.l2 b {
   left: -27px; }
 
-/* line 169, application.css.sass */
+/* line 180, application.css.sass */
 #bl_corner .crossbeam.vertical.l3 b {
   top: -24px; }
-/* line 172, application.css.sass */
+/* line 183, application.css.sass */
 #bl_corner .crossbeam.horizontal.l3 b {
   right: -24px; }
 
-/* line 177, application.css.sass */
+/* line 188, application.css.sass */
 #tl_corner .crossbeam.vertical.l3 b {
   bottom: -24px; }
-/* line 180, application.css.sass */
+/* line 191, application.css.sass */
 #tl_corner .crossbeam.horizontal.l3 b {
   right: -24px; }
 
-/* line 185, application.css.sass */
+/* line 196, application.css.sass */
 #br_corner .crossbeam.vertical.l3 b {
   top: -24px; }
-/* line 188, application.css.sass */
+/* line 199, application.css.sass */
 #br_corner .crossbeam.horizontal.l3 b {
   left: -24px; }
 
-/* line 193, application.css.sass */
+/* line 204, application.css.sass */
 #tr_corner .crossbeam.vertical.l3 b {
   bottom: -24px; }
-/* line 196, application.css.sass */
+/* line 207, application.css.sass */
 #tr_corner .crossbeam.horizontal.l3 b {
   left: -24px; }
 
-/* line 169, application.css.sass */
+/* line 180, application.css.sass */
 #bl_corner .crossbeam.vertical.l4 b {
   top: -21px; }
-/* line 172, application.css.sass */
+/* line 183, application.css.sass */
 #bl_corner .crossbeam.horizontal.l4 b {
   right: -21px; }
 
-/* line 177, application.css.sass */
+/* line 188, application.css.sass */
 #tl_corner .crossbeam.vertical.l4 b {
   bottom: -21px; }
-/* line 180, application.css.sass */
+/* line 191, application.css.sass */
 #tl_corner .crossbeam.horizontal.l4 b {
   right: -21px; }
 
-/* line 185, application.css.sass */
+/* line 196, application.css.sass */
 #br_corner .crossbeam.vertical.l4 b {
   top: -21px; }
-/* line 188, application.css.sass */
+/* line 199, application.css.sass */
 #br_corner .crossbeam.horizontal.l4 b {
   left: -21px; }
 
-/* line 193, application.css.sass */
+/* line 204, application.css.sass */
 #tr_corner .crossbeam.vertical.l4 b {
   bottom: -21px; }
-/* line 196, application.css.sass */
+/* line 207, application.css.sass */
 #tr_corner .crossbeam.horizontal.l4 b {
   left: -21px; }
 
-/* line 169, application.css.sass */
+/* line 180, application.css.sass */
 #bl_corner .crossbeam.vertical.l5 b {
   top: -18px; }
-/* line 172, application.css.sass */
+/* line 183, application.css.sass */
 #bl_corner .crossbeam.horizontal.l5 b {
   right: -18px; }
 
-/* line 177, application.css.sass */
+/* line 188, application.css.sass */
 #tl_corner .crossbeam.vertical.l5 b {
   bottom: -18px; }
-/* line 180, application.css.sass */
+/* line 191, application.css.sass */
 #tl_corner .crossbeam.horizontal.l5 b {
   right: -18px; }
 
-/* line 185, application.css.sass */
+/* line 196, application.css.sass */
 #br_corner .crossbeam.vertical.l5 b {
   top: -18px; }
-/* line 188, application.css.sass */
+/* line 199, application.css.sass */
 #br_corner .crossbeam.horizontal.l5 b {
   left: -18px; }
 
-/* line 193, application.css.sass */
+/* line 204, application.css.sass */
 #tr_corner .crossbeam.vertical.l5 b {
   bottom: -18px; }
-/* line 196, application.css.sass */
+/* line 207, application.css.sass */
 #tr_corner .crossbeam.horizontal.l5 b {
   left: -18px; }
 
-/* line 169, application.css.sass */
+/* line 180, application.css.sass */
 #bl_corner .crossbeam.vertical.l6 b {
   top: -15px; }
-/* line 172, application.css.sass */
+/* line 183, application.css.sass */
 #bl_corner .crossbeam.horizontal.l6 b {
   right: -15px; }
 
-/* line 177, application.css.sass */
+/* line 188, application.css.sass */
 #tl_corner .crossbeam.vertical.l6 b {
   bottom: -15px; }
-/* line 180, application.css.sass */
+/* line 191, application.css.sass */
 #tl_corner .crossbeam.horizontal.l6 b {
   right: -15px; }
 
-/* line 185, application.css.sass */
+/* line 196, application.css.sass */
 #br_corner .crossbeam.vertical.l6 b {
   top: -15px; }
-/* line 188, application.css.sass */
+/* line 199, application.css.sass */
 #br_corner .crossbeam.horizontal.l6 b {
   left: -15px; }
 
-/* line 193, application.css.sass */
+/* line 204, application.css.sass */
 #tr_corner .crossbeam.vertical.l6 b {
   bottom: -15px; }
-/* line 196, application.css.sass */
+/* line 207, application.css.sass */
 #tr_corner .crossbeam.horizontal.l6 b {
   left: -15px; }
 
-/* line 200, application.css.sass */
+/* line 211, application.css.sass */
 .row_beam {
   position: absolute;
   z-index: 1;
   width: 40px;
   height: 40px; }
 
-/* line 206, application.css.sass */
+/* line 217, application.css.sass */
 #bl_corner .row_beam {
   top: auto;
   right: auto;
   bottom: 0;
   left: 0; }
 
-/* line 212, application.css.sass */
+/* line 223, application.css.sass */
 #tl_corner .row_beam {
   top: 0;
   right: auto;
   bottom: auto;
   left: 0; }
 
-/* line 218, application.css.sass */
+/* line 229, application.css.sass */
 #br_corner .row_beam {
   top: auto;
   right: 0;
   bottom: 0;
   left: auto !important; }
 
-/* line 224, application.css.sass */
+/* line 235, application.css.sass */
 #tr_corner .row_beam {
   top: 0;
   right: 0;
   bottom: auto;
   left: auto; }
 
-/* line 231, application.css.sass */
+/* line 242, application.css.sass */
 #bl_corner .row_beam.l24, #tr_corner .row_beam.l24 {
   height: 752px; }
 
-/* line 234, application.css.sass */
+/* line 245, application.css.sass */
 #tl_corner .row_beam.l24, #br_corner .row_beam.l24 {
   width: 752px; }
 
-/* line 231, application.css.sass */
+/* line 242, application.css.sass */
 #bl_corner .row_beam.l49, #tr_corner .row_beam.l49 {
   height: 702px; }
 
-/* line 234, application.css.sass */
+/* line 245, application.css.sass */
 #tl_corner .row_beam.l49, #br_corner .row_beam.l49 {
   width: 702px; }
 
-/* line 231, application.css.sass */
+/* line 242, application.css.sass */
 #bl_corner .row_beam.l74, #tr_corner .row_beam.l74 {
   height: 652px; }
 
-/* line 234, application.css.sass */
+/* line 245, application.css.sass */
 #tl_corner .row_beam.l74, #br_corner .row_beam.l74 {
   width: 652px; }
 
-/* line 231, application.css.sass */
+/* line 242, application.css.sass */
 #bl_corner .row_beam.l99, #tr_corner .row_beam.l99 {
   height: 602px; }
 
-/* line 234, application.css.sass */
+/* line 245, application.css.sass */
 #tl_corner .row_beam.l99, #br_corner .row_beam.l99 {
   width: 602px; }
